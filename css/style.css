@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.product img
+{
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+input::file-selector-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
